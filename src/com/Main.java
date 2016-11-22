@@ -1,6 +1,7 @@
 package com;
 
 import DevCat.Cat;
+import DevCat.Sportsmn;
 import People.People;
 
 public class Main {
@@ -15,6 +16,8 @@ public class Main {
 people.getCat().say();
 
 
-
+        Sportsmn sportsmn = new Sportsmn("DENIS" , "vOVOCHKIN", 19, null);
+sportsmn.setTypeSport("Tenis");
+        System.out.println(sportsmn.getTypeSport());
     }
 }
