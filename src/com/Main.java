@@ -14,10 +14,12 @@ public class Main {
         people.getCat().setName("asdasd");
         System.out.println(people);
 people.getCat().say();
-
+        people.sayHello();
 
         Sportsmn sportsmn = new Sportsmn("DENIS" , "vOVOCHKIN", 19, null);
-sportsmn.setTypeSport("Tenis");
+        sportsmn.sayHello();
+        sportsmn.setTypeSport("Tenis");
         System.out.println(sportsmn.getTypeSport());
+
     }
 }

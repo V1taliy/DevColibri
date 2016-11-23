@@ -47,7 +47,11 @@ public class People {
         this.cat = cat;
     }
 
-    private Cat cat;
+    Cat cat;
+
+    public void sayHello(){
+        System.out.println("Say hello");
+    }
 
     @Override
     public String toString() {
