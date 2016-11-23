@@ -5,6 +5,7 @@ import DevCat.Sportsmn;
 import People.People;
 
 public class Main {
+
     static Cat cat = new Cat(10, "Bezdomnaya", "Bomguk");
     static People people = new People("Ivan", "Pukin", 445, cat);
     public static void main(String[] args) {
@@ -15,6 +16,7 @@ public class Main {
         System.out.println(people);
 people.getCat().say();
         people.sayHello();
+
 
         Sportsmn sportsmn = new Sportsmn("DENIS" , "vOVOCHKIN", 19, null);
         sportsmn.sayHello();
