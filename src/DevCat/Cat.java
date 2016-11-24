@@ -46,6 +46,11 @@ public class Cat extends Animals {
 
     @Override
     public String toString() {
-        return "Cat[name: " + name + ", poroda: " + poroda + ", age: " + age ;,
+        return "Cat[name: " + name + ", poroda: " + poroda + ", age: " + age ;
+    }
+
+    @Override
+    void temp() {
+        super.temp();
     }
 }

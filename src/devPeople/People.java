@@ -1,4 +1,4 @@
-package People;
+package devPeople;
 
 
 import DevCat.Cat;
@@ -55,6 +55,6 @@ public class People {
 
     @Override
     public String toString() {
-        return "People[Imya: " + name + ", Fimiliya: " + lastName + ", age: ]" + age + ", Est kot: " + cat;
+        return "devPeople[Imya: " + name + ", Fimiliya: " + lastName + ", age: ]" + age + ", Est kot: " + cat;
     }
 }

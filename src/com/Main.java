@@ -2,7 +2,8 @@ package com;
 
 import DevCat.Cat;
 import DevCat.Sportsmn;
-import People.People;
+import devPeople.People;
+import impl.DriverBus;
 
 public class Main {
 
@@ -11,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
       //  cat = new Cat(2, "Dvornyagjka", "Garfild");
 
-      //people = new People("Ivan", "Pukin", 445, cat);
+      //people = new devPeople("Ivan", "Pukin", 445, cat);
         people.getCat().setName("asdasd");
         System.out.println(people);
 people.getCat().say();
@@ -23,5 +24,9 @@ people.getCat().say();
         sportsmn.setTypeSport("Tenis");
         System.out.println(sportsmn.getTypeSport());
 
+       DriverBus t = new DriverBus();
+        System.out.println(t.getSpead());
+        t.setCategory("Z");
+        t.go();
     }
 }
