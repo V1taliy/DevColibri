@@ -28,5 +28,7 @@ people.getCat().say();
         System.out.println(t.getSpead());
         t.setCategory("Z");
         t.go();
+        t.hoursInSpace(200);
+        t.maximumHeigh(99);
     }
 }
