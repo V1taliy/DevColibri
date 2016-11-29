@@ -29,7 +29,7 @@ public class People {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
-    }
+    }  
 
     public int getAge() {
         return age;
@@ -50,7 +50,7 @@ public class People {
     Cat cat;
 
     public void sayHello(){
-        System.out.println("Say hello");
+        System.out.println("Say hello битчеззз");
     }
 
     @Override

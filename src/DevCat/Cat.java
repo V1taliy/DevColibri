@@ -37,11 +37,11 @@ public class Cat extends Animals {
 
     @Override
     void eat() {
-        System.out.println("я ем");
+        System.out.println("я ем котячею хавку");
     }
 
     public void say(){
-        System.out.println("Mjay, mjau");
+        System.out.println("Mjay, mjau сука мяу");
     }
 
     @Override
